@@ -1,15 +1,4 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
-
-<prefwindow id="commafeed-preferences"
-     title="CommaFeed preferences"
-     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-
-	<prefpane label="CommaFeed preferences">
-		<preferences>
-			<preference id="commafeed-url" name="extensions.commafeed.url" type="char"/>
-		</preferences>
-		<caption label="CommaFeed URL"/>
-		<textbox preference="commafeed-url"/>
-	</prefpane>
-</prefwindow>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting pref="extensions.commafeed.url" type="string" title="CommaFeed URL" />
+</vbox>
