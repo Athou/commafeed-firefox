@@ -85,7 +85,7 @@ var CommaFeed = {
 			}
 		}
 		xhr.send();
-		setTimeout(function() {  that.refresh() }, 1000);
+		setTimeout(function() {  that.refresh() }, 60000);
 	},
 
 	onLoad : function() {
