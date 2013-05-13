@@ -1,0 +1,1 @@
+pref("extensions.commafeed.url", "http://www.commafeed.com");
