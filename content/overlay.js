@@ -76,7 +76,7 @@ var CommaFeed = {
 		catch(ex) { /* user is using Firefox 3.5 */ }
 		xhr.open("GET", url + "rest/category/unreadCount", true);
 		xhr.onreadystatechange = function() {
-			if (xhr.readyState == 4) {
+			if (xhr.readyState == 4 && xhr.status == 200) {
 				var resp = JSON.parse(xhr.responseText);
 				var count = 0;
 				for ( var i = 0; i < resp.length; i++) {
