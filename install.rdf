@@ -4,7 +4,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>firefox@commafeed.com</em:id>
     <em:name>CommaFeed extension for Firefox</em:name>
-    <em:version>1.0</em:version>
+    <em:version>1.1</em:version>
 	<em:type>2</em:type>
     <em:description>CommaFeed extension for Firefox</em:description>
     <em:creator>CommaFeed</em:creator>
@@ -13,9 +13,6 @@
 	<em:iconURL>chrome://commafeed/skin/icon_128.png</em:iconURL>
 	<em:optionsURL>chrome://commafeed/content/settings.xul</em:optionsURL>
 	<em:optionsType>2</em:optionsType>
-    <!--
-    <em:updateURL>http://sampleextension.mozdev.org/update.rdf</em:updateURL
-	-->
 
     <em:targetApplication>
       <Description>
