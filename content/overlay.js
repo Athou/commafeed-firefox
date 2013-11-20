@@ -69,6 +69,11 @@ var CommaFeed = {
 			url += '/';
 		}
 		var xhr = new XMLHttpRequest();
+		try {
+			xhr.channel.QueryInterface(Ci.nsIHttpChannelInternal).
+			forceAllowThirdPartyCookie = true;
+		}
+		catch(ex) { /* user is using Firefox 3.5 */ }
 		xhr.open("GET", url + "rest/category/unreadCount", true);
 		xhr.onreadystatechange = function() {
 			if (xhr.readyState == 4) {
