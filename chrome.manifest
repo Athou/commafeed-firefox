@@ -1,5 +1,0 @@
-content	commafeed	content/
-overlay	chrome://browser/content/browser.xul	chrome://commafeed/content/overlay.xul
-
-skin	commafeed	classic/1.0	skin/
-style	chrome://global/content/customizeToolbar.xul	chrome://commafeed/skin/overlay.css

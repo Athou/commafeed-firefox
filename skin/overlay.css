@@ -1,7 +1,0 @@
-#toolbar_button {
-    list-style-image:url("chrome://commafeed/skin/icon_024.png");
-}
-
-toolbar[iconsize="small"] #toolbar_button {
-    list-style-image:url("chrome://commafeed/skin/icon_016.png");
-}

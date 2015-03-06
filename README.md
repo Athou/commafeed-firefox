@@ -1,1 +1,0 @@
-CommaFeed extension for Firefox
