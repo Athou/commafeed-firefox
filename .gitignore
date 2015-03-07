@@ -1,5 +1,8 @@
 commafeed-firefox.xpi
 
-# IntelliJ Idea files
+# eclipse
+.project
+
+# IntelliJ
 .idea
 *.iml
