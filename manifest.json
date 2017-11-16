@@ -6,7 +6,7 @@
     "128": "icon128.png"
   },
   "description": "CommaFeed Firefox extension",
-  "version": "1.5",
+  "version": "2.1",
   "options_ui": {
 	"page": "options.html",
 	"browser_style": true
